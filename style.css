@@ -1,14 +1,19 @@
 * {
     color: hwb(46 9% 32%);
 }
+
 .TitlePage {
     font-family: "Lucida Console", "Courier New", monospace;
- 
+
 }
 
-#description{
-    color: black;
+.description {
+    color: white;
+    border: 1px solid black;
+    padding: 50px 30px 10px;
+    background: gray;
 }
+
 li a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
@@ -16,14 +21,16 @@ li a {
 }
 
 
-ul li p{
+ul li p {
     color: hwb(46 21% 32%);
 
 }
+
 ol li {
     font-weight: 700;
     font-style: italic;
 }
+
 .step-desc {
     font-weight: normal;
     color: hwb(46 21% 32%);
