@@ -44,4 +44,12 @@ ol li {
 
 .desc-span {
     color: whitesmoke;
+    border: 2px dotted blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.outer {
+    border: 2px solid black;
+    
 }
