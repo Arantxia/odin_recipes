@@ -8,10 +8,15 @@
 }
 
 .description {
-    color: white;
-    border: 1px solid black;
-    padding: 50px 30px 10px;
+    color: whitesmoke;
     background: gray;
+
+    height: auto;
+    /* width: 300px; */
+    padding: 20px;
+    border: 5px outset black;
+    /* margin: 30px auto; */
+    box-sizing: border-box;
 }
 
 li a {
@@ -35,4 +40,8 @@ ol li {
     font-weight: normal;
     color: hwb(46 21% 32%);
     font-style: normal;
+}
+
+.desc-span {
+    color: whitesmoke;
 }
